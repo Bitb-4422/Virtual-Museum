@@ -1,0 +1,1507 @@
+Unity Editor version:    2022.3.10f1 (ff3792e53c62)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/gharbinbern/Downloads/CPE final project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57184
+Successfully changed project path to: /Users/gharbinbern/Downloads/CPE final project
+/Users/gharbinbern/Downloads/CPE final project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8666271552] Host "[IP] 10.228.252.183 [Port] 0 [Flags] 2 [Guid] 340845915 [EditorId] 340845915 [Version] 1048832 [Id] OSXEditor(0,Gharbins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8666271552] Host "[IP] 10.228.252.183 [Port] 0 [Flags] 2 [Guid] 340845915 [EditorId] 340845915 [Version] 1048832 [Id] OSXEditor(0,Gharbins-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 54.44 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.23 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gharbinbern/Downloads/CPE final project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.013958 seconds.
+- Loaded All Assemblies, in  0.703 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 316 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1478ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (659ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (494ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestInteractionUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/SampleInteractionStage.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/CharacterController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/SampleRecordAnimationUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/StageSampleRecordAnimation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestParentConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestLocomotion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/InputManagerBodyPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageCheckIsCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/Gun.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnSphere.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestObjectSelected.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+========================================================================
+Worker process is ready to serve import requests
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestInteractionUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/SampleInteractionStage.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/CharacterController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/SampleRecordAnimationUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/StageSampleRecordAnimation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestParentConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestLocomotion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/InputManagerBodyPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageCheckIsCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/Gun.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnSphere.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestObjectSelected.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.787 seconds
+Refreshing native plugins compatible for Editor in 11.14 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestInteractionUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/SampleInteractionStage.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/CharacterController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/SampleRecordAnimationUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/StageSampleRecordAnimation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestParentConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestLocomotion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/InputManagerBodyPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageCheckIsCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/Gun.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnSphere.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestObjectSelected.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.841 seconds
+Domain Reload Profiling: 3654ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (1418ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (751ms)
+			TypeCache.Refresh (647ms)
+				TypeCache.ScanAssembly (579ms)
+			ScanForSourceGeneratedMonoScriptInfo (73ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1841ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (1095ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
+Refreshing native plugins compatible for Editor in 31.86 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
+Unloading 7735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 152 unused Assets / (1.6 MB). Loaded Objects now: 8222.
+Memory consumption went from 314.9 MB to 313.3 MB.
+Total: 40.812791 ms (FindLiveObjects: 3.177584 ms CreateObjectMapping: 0.668000 ms MarkObjects: 32.508250 ms  DeleteObjects: 4.455542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 750533.407585 seconds.
+  path: Assets/Scenes/Museum/Lightmap-7_comp_light.exr
+  artifactKey: Guid(21c99c8868a5b492fa290a135ed2430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-7_comp_light.exr using Guid(21c99c8868a5b492fa290a135ed2430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca258c26fcb4f7cb136c5ef86492ac3d') in 0.283901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Scenes/Museum/Lightmap-9_comp_dir.png
+  artifactKey: Guid(c9fbfd913ab0e4997b4d8c74d7d174dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-9_comp_dir.png using Guid(c9fbfd913ab0e4997b4d8c74d7d174dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9370a4f4ddefc49422eb3d2996a88abf') in 0.013147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Scenes/Museum.unity
+  artifactKey: Guid(c8be33f9812d74a38b082cbe2d057b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum.unity using Guid(c8be33f9812d74a38b082cbe2d057b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c45eefa07c67c02a5bc158172db5425') in 0.000781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001918 seconds.
+  path: Assets/Scenes/Museum/Lightmap-13_comp_light.exr
+  artifactKey: Guid(4c725fb76a79c4fc894b708b38a1e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-13_comp_light.exr using Guid(4c725fb76a79c4fc894b708b38a1e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c1821fe705f92ae44365a445e411c0') in 0.009627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Scenes/Museum/Lightmap-6_comp_dir.png
+  artifactKey: Guid(88ea01656c766484c9e4a44c2dcaad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-6_comp_dir.png using Guid(88ea01656c766484c9e4a44c2dcaad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a0691bea81cdfcebdbe4f05942d342') in 0.014138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Scenes/Museum/Lightmap-10_comp_light.exr
+  artifactKey: Guid(3e4a08f0dec03430f804cf45a021a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-10_comp_light.exr using Guid(3e4a08f0dec03430f804cf45a021a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d3cbc7b1d90970fad23a81460c964a') in 0.014836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Scenes/Museum/Lightmap-2_comp_light.exr
+  artifactKey: Guid(ebac47d4274514548937aa7e6f74455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-2_comp_light.exr using Guid(ebac47d4274514548937aa7e6f74455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70811b917c6cbfef96edcd8823bc780e') in 0.010233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/New Terrain Layer.terrainlayer
+  artifactKey: Guid(b6ba0db1084f74ce59d1ece6e1197c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain Layer.terrainlayer using Guid(b6ba0db1084f74ce59d1ece6e1197c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dde67eb928e8397658f6326b1f0810e') in 0.009198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5930ae873a27c3d824aa42356c3e96e') in 0.001844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Scenes/Museum/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a293087034bc84e448e853c85627a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-1_comp_light.exr using Guid(a293087034bc84e448e853c85627a3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4731945a235aee7f88618b5e7a54b4b') in 0.011745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/Museum/Lightmap-14_comp_light.exr
+  artifactKey: Guid(69c18897608fc49fc8dbad32f39a39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-14_comp_light.exr using Guid(69c18897608fc49fc8dbad32f39a39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccb9c1c88fd771606ceb52c48d73b6c') in 0.009933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40d9c5c1f093d3963b186d0f784303b') in 0.000410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Scenes/Museum/Lightmap-11_comp_dir.png
+  artifactKey: Guid(01120b2a2a08c40de8dcd42d5a642997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-11_comp_dir.png using Guid(01120b2a2a08c40de8dcd42d5a642997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5664494ef7130db206d1a163f89822a') in 0.010647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Scenes/Museum/Lightmap-0_comp_light.exr
+  artifactKey: Guid(1753702c494964b87bab74c21b260552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-0_comp_light.exr using Guid(1753702c494964b87bab74c21b260552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de4be00b91471c7ce5fd55b4e03ecaa') in 0.011444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Scenes/Museum/Lightmap-5_comp_light.exr
+  artifactKey: Guid(74e77985a004843e2aafca19b4f2363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-5_comp_light.exr using Guid(74e77985a004843e2aafca19b4f2363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbb681de99bfde8df3152e32ce8756e') in 0.008722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/New Terrain 3.asset
+  artifactKey: Guid(c57b1c726028848ada3cc2feac10c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 3.asset using Guid(c57b1c726028848ada3cc2feac10c602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+ -> (artifact id: '86022221244461e63a4d925f96e6a700') in 0.007014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Scenes/Museum/Lightmap-5_comp_dir.png
+  artifactKey: Guid(bb6521cc3e67947d09fa43376c8ff3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-5_comp_dir.png using Guid(bb6521cc3e67947d09fa43376c8ff3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc14846d9dc2d4e8ae9a2bf98e4c88a') in 0.009624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Scenes/Museum/Lightmap-6_comp_light.exr
+  artifactKey: Guid(6f68544e84c5548e3b670b5a12f54128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-6_comp_light.exr using Guid(6f68544e84c5548e3b670b5a12f54128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6626058436485f312401338164684c34') in 0.010662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002659 seconds.
+  path: Assets/Scenes/Museum/Lightmap-14_comp_dir.png
+  artifactKey: Guid(b2e7ebd9ca7d14d74a21a4070afa82c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-14_comp_dir.png using Guid(b2e7ebd9ca7d14d74a21a4070afa82c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57201530d7a2fbad0e8dc82ec6d1e07e') in 0.009662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Scenes/Museum/Lightmap-7_comp_dir.png
+  artifactKey: Guid(d40f03b92566e4424831788ec3b528d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-7_comp_dir.png using Guid(d40f03b92566e4424831788ec3b528d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2732ad03938d462f92bbb92578b50b6d') in 0.014829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Scenes/Museum.scenetemplate
+  artifactKey: Guid(ec9c67210ed0f4df0b3d364011079283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum.scenetemplate using Guid(ec9c67210ed0f4df0b3d364011079283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896cc54681817e518fb1a6c8a882539e') in 1.232173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 4.429539 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
+LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: 'cb33d71b91ffab56e47a511947194374') in 0.027742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.637407 seconds.
+  path: Assets/Scenes/Museum/Lightmap-15_comp_dir.png
+  artifactKey: Guid(d54ea7c15a98644efb3435298dde7062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-15_comp_dir.png using Guid(d54ea7c15a98644efb3435298dde7062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8824e12c642e729281dd3b4b7e13901') in 0.089299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scenes/Museum/Lightmap-16_comp_dir.png
+  artifactKey: Guid(ed0a6c504b8dc466b95e370bebf9634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-16_comp_dir.png using Guid(ed0a6c504b8dc466b95e370bebf9634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea3cdd4c9f8fb2bf193f8c5b0cdd951') in 0.007820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/Museum/Lightmap-29_comp_dir.png
+  artifactKey: Guid(4a590f4d103994c1a90a2f2063018660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-29_comp_dir.png using Guid(4a590f4d103994c1a90a2f2063018660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614b78c932b104985bff3e1ec9d50aea') in 0.006575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/Museum/Lightmap-34_comp_dir.png
+  artifactKey: Guid(77a585c47ee8f405b98a4b39a3a4f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-34_comp_dir.png using Guid(77a585c47ee8f405b98a4b39a3a4f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a784fcab16f5f60687896a422e6f60') in 0.006478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Museum/Lightmap-24_comp_light.exr
+  artifactKey: Guid(15fb5e273bfcf445ebfeb79aa9b32297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-24_comp_light.exr using Guid(15fb5e273bfcf445ebfeb79aa9b32297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7ca20767482f3f16ae82c58c371a55') in 0.006549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Museum/Lightmap-18_comp_light.exr
+  artifactKey: Guid(732553e4e499645339b56d198136efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-18_comp_light.exr using Guid(732553e4e499645339b56d198136efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e21b1a950225c52778cbba6c4bac37') in 0.006958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scenes/Museum/Lightmap-35_comp_light.exr
+  artifactKey: Guid(cf7f2ebdd09e1422ca749bf122d29cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-35_comp_light.exr using Guid(cf7f2ebdd09e1422ca749bf122d29cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbf1e1628ea6e8088344f3222385c51') in 0.008185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/Museum/Lightmap-20_comp_dir.png
+  artifactKey: Guid(4b6d74733afd043d4bb83184aac0d642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-20_comp_dir.png using Guid(4b6d74733afd043d4bb83184aac0d642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d64c04611928223af5092f001344983') in 0.006934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scenes/Museum/Lightmap-21_comp_light.exr
+  artifactKey: Guid(7cdc20fc3f4394262bee8cc1c8e43dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-21_comp_light.exr using Guid(7cdc20fc3f4394262bee8cc1c8e43dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bd23cc6dae8a45e2276d50206f6755') in 0.007303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/Museum/Lightmap-39_comp_light.exr
+  artifactKey: Guid(267cefa7505dd44bcb8c16a04cb3986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-39_comp_light.exr using Guid(267cefa7505dd44bcb8c16a04cb3986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03950fce6ad325c8152bba1ec9c91af9') in 0.006753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Scenes/Museum/Lightmap-33_comp_light.exr
+  artifactKey: Guid(920c312697bb141688dffe80b71c820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-33_comp_light.exr using Guid(920c312697bb141688dffe80b71c820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313301fd310753b5cd92e5e9911b8f56') in 0.007675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Scenes/Museum/Lightmap-26_comp_dir.png
+  artifactKey: Guid(3a60c4812600442a7a47a33ad4c90482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-26_comp_dir.png using Guid(3a60c4812600442a7a47a33ad4c90482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541bf93886d144946a262e18131d0cdc') in 0.008718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/Museum/Lightmap-17_comp_light.exr
+  artifactKey: Guid(35ef246135bec463c9e0b0a5d770bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-17_comp_light.exr using Guid(35ef246135bec463c9e0b0a5d770bcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38add752b3f68a11ff188a2be660f381') in 0.006628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/Museum/Lightmap-16_comp_light.exr
+  artifactKey: Guid(d525551748d4246da85c035aa943cef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-16_comp_light.exr using Guid(d525551748d4246da85c035aa943cef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8c0dbd313975c6ce5a66d126726347') in 0.006694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Museum/Lightmap-19_comp_dir.png
+  artifactKey: Guid(582caf585f3d4419c8b377c4aaa67f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-19_comp_dir.png using Guid(582caf585f3d4419c8b377c4aaa67f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fa8195c9f0b0cfff764afa37f9bc34') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes/Museum/Lightmap-28_comp_light.exr
+  artifactKey: Guid(7df0a82dd19034c75b18e0337eaa1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-28_comp_light.exr using Guid(7df0a82dd19034c75b18e0337eaa1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45914592fb6e20145286773e970b001a') in 0.006773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/Museum/Lightmap-38_comp_light.exr
+  artifactKey: Guid(e08787028283a40abb51c2b1ac20a802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-38_comp_light.exr using Guid(e08787028283a40abb51c2b1ac20a802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40526e8ca372e1134f1b47666884ffdf') in 0.006504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Scenes/Museum/Lightmap-24_comp_dir.png
+  artifactKey: Guid(5ca500661aa8d4915923b15ef1849b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-24_comp_dir.png using Guid(5ca500661aa8d4915923b15ef1849b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f665507371c25edec97cc13acfcb12a') in 0.007605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Museum/Lightmap-34_comp_light.exr
+  artifactKey: Guid(5b6e3f92f24764702a9ef8a8cb27c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-34_comp_light.exr using Guid(5b6e3f92f24764702a9ef8a8cb27c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bfb14e588f57065fc12a2d6df7b67b') in 0.006207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scenes/Museum/Lightmap-29_comp_light.exr
+  artifactKey: Guid(5ac987d6350134eb9a16a8d0e08aa622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-29_comp_light.exr using Guid(5ac987d6350134eb9a16a8d0e08aa622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe4b8f49e7c25775361820676768861') in 0.006470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Scenes/Museum/Lightmap-26_comp_light.exr
+  artifactKey: Guid(aa0622010deea46e4989e440293cd0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-26_comp_light.exr using Guid(aa0622010deea46e4989e440293cd0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe308313ed135dc01b84b50049c48922') in 0.006527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/Museum/Lightmap-25_comp_light.exr
+  artifactKey: Guid(df2fdee93edfc417bbcaa9364a28fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-25_comp_light.exr using Guid(df2fdee93edfc417bbcaa9364a28fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b227200768bb33e65bdd524e1e532bd8') in 0.006831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Scenes/Museum/Lightmap-33_comp_dir.png
+  artifactKey: Guid(335d743411c8e4810a68620eed939fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-33_comp_dir.png using Guid(335d743411c8e4810a68620eed939fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c898e648d3e7e6f792301ef0453523e') in 0.007903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/Museum/Lightmap-37_comp_dir.png
+  artifactKey: Guid(28e5817bfcb6b4ed3b1f62eeca143ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-37_comp_dir.png using Guid(28e5817bfcb6b4ed3b1f62eeca143ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5324d95b5e93e322e9f6e277c9b2b5b6') in 0.007057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Museum/Lightmap-22_comp_dir.png
+  artifactKey: Guid(ed223d0a23a21462696c20be7c69b027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum/Lightmap-22_comp_dir.png using Guid(ed223d0a23a21462696c20be7c69b027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2022c1dafab1eb85fb4835f397ee6707') in 0.006173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.597329 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5685edd02d3af5155eb3a9a257e81bc7') in 0.003224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f607a876dfabe0f30a83e98a8dcc5b1') in 0.002821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.346198 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1efcc1d1d5ea55923c504c4e989d03') in 0.462244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab
+  artifactKey: Guid(38a07789c9e87004dad98c2909f58369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab using Guid(38a07789c9e87004dad98c2909f58369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0fb18008fa0934a27f0d2408f90f23') in 0.024470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValueTuple.prefab
+  artifactKey: Guid(a2148203dd960814ca5db0c293ceda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValueTuple.prefab using Guid(a2148203dd960814ca5db0c293ceda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b59e1670c6ba307701cc9d2cf217d2') in 0.005614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda14b3ebf41bf70a231cd508df202ea') in 0.020658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIMessageBox.prefab
+  artifactKey: Guid(10a25524b0986f9488b430e2829bbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIMessageBox.prefab using Guid(10a25524b0986f9488b430e2829bbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8799150c79e946009e9b7b70d7f2333d') in 0.006791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab
+  artifactKey: Guid(2d019437ff89b8d44949727731cd9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab using Guid(2d019437ff89b8d44949727731cd9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f17f4c2230217159054b134497edcc7') in 0.010635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab
+  artifactKey: Guid(f7f5e36797cf0c1408561665c67b179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab using Guid(f7f5e36797cf0c1408561665c67b179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c97d1068084c74187053cb101e38c') in 0.003243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab
+  artifactKey: Guid(1c87ab2ce8b8b304d98fbe9a734b1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab using Guid(1c87ab2ce8b8b304d98fbe9a734b1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c1c6de5d8cc8ceb9463e723bc920b1') in 0.004068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab
+  artifactKey: Guid(a0ea40bd139aedc43b0e8374d6139437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab using Guid(a0ea40bd139aedc43b0e8374d6139437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532a6adf6994d2a205fd7bd048e6ad01') in 0.059691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 397
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab
+  artifactKey: Guid(f22bcc84a5f4a1944b075a2c4ac71493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab using Guid(f22bcc84a5f4a1944b075a2c4ac71493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5245785a4efa29f1b6b92012bd9f2d30') in 0.005584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab
+  artifactKey: Guid(2ea572d587ee60f44bd5baa3bc2d6503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab using Guid(2ea572d587ee60f44bd5baa3bc2d6503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57684531d97e9c4565bf0270f593f0cb') in 0.062518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1090
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
+  artifactKey: Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab using Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5209a2303054f76de611c656b39895ea') in 0.003514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.001387 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector2.prefab
+  artifactKey: Guid(326f7c58aed965d41bf7805a782d1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector2.prefab using Guid(326f7c58aed965d41bf7805a782d1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75c00f59914fdc9816ae6be8bbe19e2') in 0.004711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab
+  artifactKey: Guid(ca3e294656861a64b8aeeb9f916da0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab using Guid(ca3e294656861a64b8aeeb9f916da0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916cd5bd85b878cdab0e7dec26924773') in 0.002387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggle.prefab
+  artifactKey: Guid(ce347ad101f41ee4ab5c3fbc0ea447db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggle.prefab using Guid(ce347ad101f41ee4ab5c3fbc0ea447db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5837f0e8c3d93bf527a43e313cce17b1') in 0.007439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.584189 seconds.
+  path: Assets/Animations/Idle.fbx
+  artifactKey: Guid(2850bf0c10be94d73aac19e6b739ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Idle.fbx using Guid(2850bf0c10be94d73aac19e6b739ead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675f43a40dce9acce954c65e0729d75d') in 0.007472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 7.826825 seconds.
+  path: Assets/Museum-Workshop/Materials
+  artifactKey: Guid(f307aceef114c5f4fbe3232e54fce1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum-Workshop/Materials using Guid(f307aceef114c5f4fbe3232e54fce1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e487873c81102b9cfd1f43085a99927') in 0.000839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.188973 seconds.
+  path: Assets/Museum-Workshop/Materials/Floor.mat
+  artifactKey: Guid(e90007ce036716c49828e63094309775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum-Workshop/Materials/Floor.mat using Guid(e90007ce036716c49828e63094309775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a2f81283c86d790b2c8e3e4dd19110') in 0.054714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Museum-Workshop/Materials/wall 2.mat
+  artifactKey: Guid(8a10a8852a2044913a170d90ef4af912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum-Workshop/Materials/wall 2.mat using Guid(8a10a8852a2044913a170d90ef4af912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afd1c85fdcdd65c2bd37ac45324f165') in 0.012383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Museum-Workshop/Materials/Light.mat
+  artifactKey: Guid(c10b7c91a5afce64fa57dce454ae8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum-Workshop/Materials/Light.mat using Guid(c10b7c91a5afce64fa57dce454ae8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae40395642d0f880fcade74d8a47e81') in 0.446580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Museum-Workshop/Materials/wall 3.mat
+  artifactKey: Guid(96c4cabe543062b439d4467d7034c427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum-Workshop/Materials/wall 3.mat using Guid(96c4cabe543062b439d4467d7034c427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591c5eaf303dc25d5a932b1c6d6251c3') in 0.015777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.723795 seconds.
+  path: Assets/Museum-Workshop/Prefabs/SoundPlayerCanvas.prefab
+  artifactKey: Guid(669232dcfb14b9e4e955bc66c058d1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum-Workshop/Prefabs/SoundPlayerCanvas.prefab using Guid(669232dcfb14b9e4e955bc66c058d1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1189e8410003bd27c3b01e46f88560') in 0.010956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.105658 seconds.
+  path: Assets/museum_assets/soundforjoe.mp3
+  artifactKey: Guid(9802196b27483415ebecac92c3d73f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/museum_assets/soundforjoe.mp3 using Guid(9802196b27483415ebecac92c3d73f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b4307de5aac28f72e9b9c126d9c55d') in 0.056961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.80 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (1.6 MB). Loaded Objects now: 8360.
+Memory consumption went from 155.6 MB to 154.0 MB.
+Total: 27.893792 ms (FindLiveObjects: 0.470458 ms CreateObjectMapping: 0.224083 ms MarkObjects: 26.704167 ms  DeleteObjects: 0.494541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestInteractionUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/SampleInteractionStage.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/CharacterController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/SampleRecordAnimationUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/StageSampleRecordAnimation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestParentConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestLocomotion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/InputManagerBodyPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageCheckIsCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/Gun.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnSphere.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestObjectSelected.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestInteractionUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/SampleInteractionStage.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/CharacterController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/SampleRecordAnimationUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/StageSampleRecordAnimation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestParentConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestLocomotion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/InputManagerBodyPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageCheckIsCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/Gun.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnSphere.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestObjectSelected.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+Thread 0x3410e7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.788 seconds
+Refreshing native plugins compatible for Editor in 12.62 ms, found 9 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestInteractionUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/SampleInteractionStage.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/CharacterController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/SampleRecordAnimationUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/03_RecordPlayback/Scripts/StageSampleRecordAnimation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestParentConstraint.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestLocomotion.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/02_InputManager/InputManagerBodyPose.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageCheckIsCube.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/Gun.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/01_Workflow/Scripts/StageSpawnSphere.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.quickvr.quickbase/Samples/04_Interaction/Scripts/TestObjectSelected.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.136 seconds
+Domain Reload Profiling: 2926ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (568ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 6.87 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 7486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (1.6 MB). Loaded Objects now: 8316.
+Memory consumption went from 276.0 MB to 274.4 MB.
+Total: 7.449167 ms (FindLiveObjects: 0.445708 ms CreateObjectMapping: 0.302333 ms MarkObjects: 6.111042 ms  DeleteObjects: 0.589584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136.110814 seconds.
+  path: Assets/ld-textures/Materials/T_BrownPanels_basecolor.mat
+  artifactKey: Guid(920f112c5b1504d2eaecd2ebd0d53fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/Materials/T_BrownPanels_basecolor.mat using Guid(920f112c5b1504d2eaecd2ebd0d53fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1017759dc288c2ffa6cf0f5cef03218') in 0.327614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ld-textures/Materials/T_Wood_Var_roughness.mat
+  artifactKey: Guid(8e2f65776f03340378848bd3391910b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/Materials/T_Wood_Var_roughness.mat using Guid(8e2f65776f03340378848bd3391910b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fd62509c0ade9978da7e4496e96ca1') in 0.009719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ld-textures/Materials/T_Road_Var_basecolor.mat
+  artifactKey: Guid(f90bb637245654ff48a1da54c4f8ebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/Materials/T_Road_Var_basecolor.mat using Guid(f90bb637245654ff48a1da54c4f8ebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c37a098168cf693a80d8c29439fe2') in 0.008198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.356610 seconds.
+  path: Assets/ld-textures/textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(0518a4e2ad6754c07b03c2e3606c78df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/internal_ground_ao_texture.jpeg using Guid(0518a4e2ad6754c07b03c2e3606c78df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b77f7e563acb539c90ca9e0d5cabe33') in 0.015589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/ld-textures/textures/T_GreyBrick_Var_basecolor.png
+  artifactKey: Guid(b837ba2c7482f4c859583196b14438d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_GreyBrick_Var_basecolor.png using Guid(b837ba2c7482f4c859583196b14438d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bb5f64dda0415a4d20cff28a58edd') in 0.007936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ld-textures/textures/T_BrownPanels_roughness.png
+  artifactKey: Guid(737e0a636b2dc4761a5bc2060c104697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_BrownPanels_roughness.png using Guid(737e0a636b2dc4761a5bc2060c104697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672b57c3dffdc3117b83a0616b591530') in 0.006151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/ld-textures/textures/T_Grass_Var_basecolor.png
+  artifactKey: Guid(a47e187aba675461c8b1bbd4570140a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_Grass_Var_basecolor.png using Guid(a47e187aba675461c8b1bbd4570140a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b9ec48690ff54cf2a8c119d7020f7b') in 0.007778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ld-textures/textures/T_Road_basecolor.png
+  artifactKey: Guid(9c75ff295fd934ef6ab5770b83a9d901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_Road_basecolor.png using Guid(9c75ff295fd934ef6ab5770b83a9d901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4b344f188854bac4b0d1ef5c6c3c4a') in 0.006555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/ld-textures/textures/T_Plaster_basecolor.png
+  artifactKey: Guid(ba1af597869564d1fbd8593cc6cae1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_Plaster_basecolor.png using Guid(ba1af597869564d1fbd8593cc6cae1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047dd09b5c97a2dfb8d73f7984cf6f20') in 0.006665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/ld-textures/textures/T_DarkPavement_Var_basecolor.png
+  artifactKey: Guid(abb3b75bf07f147a18eaa7e11b8c1a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_DarkPavement_Var_basecolor.png using Guid(abb3b75bf07f147a18eaa7e11b8c1a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d6c533acfd9b6091c25472bd2bd81') in 0.009232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ld-textures/textures/T_GreyBrick_Var_roughness.png
+  artifactKey: Guid(f777afb3fb79b4fdf964a1e7c5ea44bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_GreyBrick_Var_roughness.png using Guid(f777afb3fb79b4fdf964a1e7c5ea44bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1736a5a8226e111e2509b63f1c12c0') in 0.007132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/ld-textures/textures/T_RedPavement_Var_basecolor.png
+  artifactKey: Guid(00fedb4b3734f4581b23a76e3c97109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_RedPavement_Var_basecolor.png using Guid(00fedb4b3734f4581b23a76e3c97109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ca78b3ea09d0658398c8e96f80aceb') in 0.006367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/ld-textures/textures/T_GreyBrick_roughness.png
+  artifactKey: Guid(7712d2c6f0e064f269221fc4c10d2ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_GreyBrick_roughness.png using Guid(7712d2c6f0e064f269221fc4c10d2ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c6e94835be0dd5ff97a744b78581c0') in 0.006190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/ld-textures/textures/T_RedPavement_roughness.png
+  artifactKey: Guid(e678ee9c8b1794f758adb05ffb26ef9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_RedPavement_roughness.png using Guid(e678ee9c8b1794f758adb05ffb26ef9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc866844ca005c25ed50dcb8f4df0c07') in 0.011521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/ld-textures/textures/T_Road_Var_basecolor.png
+  artifactKey: Guid(3bad38ed6319c42c2a2d1a5da83f8cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_Road_Var_basecolor.png using Guid(3bad38ed6319c42c2a2d1a5da83f8cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d678145622ae9d917369368b03c6817') in 0.006729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/ld-textures/textures/T_BrownPanels_Var_basecolor.png
+  artifactKey: Guid(e2d770545d78246ac817c0b488e25394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_BrownPanels_Var_basecolor.png using Guid(e2d770545d78246ac817c0b488e25394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0187fc65735da6c46ce4ea66e9f4b2') in 0.007003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ld-textures/textures/T_Wood_basecolor.png
+  artifactKey: Guid(1284ff29c62c14444910eacf8ecef068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_Wood_basecolor.png using Guid(1284ff29c62c14444910eacf8ecef068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a5c1e599e704aa6d6af99997fcbd11') in 0.006889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ld-textures/textures/T_RedPavement_Var_roughness.png
+  artifactKey: Guid(4fd226f1af52f4a63af9f6374f102a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_RedPavement_Var_roughness.png using Guid(4fd226f1af52f4a63af9f6374f102a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3e36650ae4b5ebca030e04b1dcedc3') in 0.006134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ld-textures/textures/T_RedPavement_basecolor.png
+  artifactKey: Guid(b8931a49a924c413ba09b045adbd30d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_RedPavement_basecolor.png using Guid(b8931a49a924c413ba09b045adbd30d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03fdddab54533f82c66d9dd5f3ee13f') in 0.005962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.019456 seconds.
+  path: Packages/com.unity.xr.hands/package.json
+  artifactKey: Guid(38dc0fcc185469a4b87c9ac1c775caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.hands/package.json using Guid(38dc0fcc185469a4b87c9ac1c775caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e53e3dd2b220f0919af22ca867cb20') in 0.001631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.630479 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb40cad7afcc724009a6e69bfa416c4') in 0.001080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.491345 seconds.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b980cd5eeba3195ea010aa8ea5679ab') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.851400 seconds.
+  path: Assets/joe_textures/Ch33_1001_Glossiness.png
+  artifactKey: Guid(3249cd08e8eb442e1b68009394c7a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/joe_textures/Ch33_1001_Glossiness.png using Guid(3249cd08e8eb442e1b68009394c7a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3028d39a52f32ee85d3b34f1667344b6') in 0.023824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/joe_textures/Ch33_1002_Diffuse.png
+  artifactKey: Guid(009ca227c63324c06a5faaf301a5dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/joe_textures/Ch33_1002_Diffuse.png using Guid(009ca227c63324c06a5faaf301a5dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e2e103c0c77d11cb0cf10843a0b0ff') in 0.013078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/joe_textures/Ch33_1002_Normal 1.png
+  artifactKey: Guid(6a939911737f8434195fddfca9788ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/joe_textures/Ch33_1002_Normal 1.png using Guid(6a939911737f8434195fddfca9788ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f0053589c31cd0509a770ea0a35d57') in 0.090270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/joe_textures/Ch33_1002_Diffuse 1.png
+  artifactKey: Guid(10a0f11606d3c4358a30896843cdff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/joe_textures/Ch33_1002_Diffuse 1.png using Guid(10a0f11606d3c4358a30896843cdff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1662983c92b166d337d802f56818176e') in 0.008794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.615875 seconds.
+  path: Assets/Materials/ceiling.mat
+  artifactKey: Guid(36bc97762fb1448eaac8b323da112d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ceiling.mat using Guid(36bc97762fb1448eaac8b323da112d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354602549f44890488a27ef00156530d') in 0.144629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Materials/stands.mat
+  artifactKey: Guid(604ce75ada7714b4f8d0c678c4c28c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stands.mat using Guid(604ce75ada7714b4f8d0c678c4c28c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aa085485bb5d341829495a3d788f0e') in 0.009597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Materials/projections.mat
+  artifactKey: Guid(39f6c5e847f064d919158b537fd94883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/projections.mat using Guid(39f6c5e847f064d919158b537fd94883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa6530b4e7b8a03412291245935e14') in 0.005970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Materials/floor.mat
+  artifactKey: Guid(1f1ffd253ea464848934d8fb93f6b3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/floor.mat using Guid(1f1ffd253ea464848934d8fb93f6b3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdf93dd1640702f76a6c7c5dbaedc6f') in 0.007157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Materials/walls.mat
+  artifactKey: Guid(b0c90b6f58b9e4712af60950dd4bdff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/walls.mat using Guid(b0c90b6f58b9e4712af60950dd4bdff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08644292fbd98058102f52739223449a') in 0.007289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(c0a4ff3973acd4e1f9d47b3943f9a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(c0a4ff3973acd4e1f9d47b3943f9a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c435ca16f8d1ad34d541b1d2e70fd7c') in 0.016923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.177030 seconds.
+  path: Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/CowboyHat.fbx
+  artifactKey: Guid(a0dfaf0497ab5334a99165f16b697e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/CowboyHat.fbx using Guid(a0dfaf0497ab5334a99165f16b697e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44367843465e03504906f459ddee608f') in 0.243010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/PoliceCap.fbx
+  artifactKey: Guid(cf015317a103ab34483db3f2dc6f0f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/PoliceCap.fbx using Guid(cf015317a103ab34483db3f2dc6f0f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c5db9a3e005f5fd616f1a5da84a2bb') in 0.038180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/VikingHelmet.fbx
+  artifactKey: Guid(a20ea7771cebbda4696ef82ef45481a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/VikingHelmet.fbx using Guid(a20ea7771cebbda4696ef82ef45481a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ae5d8b87b0b4b3b02029d7aef9b8ea') in 0.058421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/Sombrero.fbx
+  artifactKey: Guid(290f57b34312fbf448d3b8ca6b6bd41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Samples/04_Interaction/Media/Mg3D_Hats/Sombrero.fbx using Guid(290f57b34312fbf448d3b8ca6b6bd41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aaa8a890845f4acef2d5a7e0438648') in 0.036383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.786572 seconds.
+  path: Assets/museum_assets/shengding-food-vessel-around-575-bce/source/151009_mia337_2005_92_ShengTing_0901_BlenderNormals/151009_mia337_2005_92_ShengTing_0901_BlenderNormals.obj
+  artifactKey: Guid(cafbbc684a1de4a0f9d229fa9c1a8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/museum_assets/shengding-food-vessel-around-575-bce/source/151009_mia337_2005_92_ShengTing_0901_BlenderNormals/151009_mia337_2005_92_ShengTing_0901_BlenderNormals.obj using Guid(cafbbc684a1de4a0f9d229fa9c1a8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d62278d15170d00c9e918595e912b3') in 0.031333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/generic_hmd/generic_hmd.obj
+  artifactKey: Guid(d0ad9ea5963d97c4eb54f20d426783ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/generic_hmd/generic_hmd.obj using Guid(d0ad9ea5963d97c4eb54f20d426783ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef654be1036bafc24fc8503c6b7e0f1c') in 0.022181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/QuickInteraction/Media/Arrow.fbx
+  artifactKey: Guid(da8eeed7a7b75784abde0052c48c3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/QuickInteraction/Media/Arrow.fbx using Guid(da8eeed7a7b75784abde0052c48c3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f64f619447ae990b4cce1d38422c2f') in 0.013285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_grip.obj
+  artifactKey: Guid(351bc6e3b9f2859499b232d573ad3f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_grip.obj using Guid(351bc6e3b9f2859499b232d573ad3f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d7306aa5e13c4a2302d4329ab6b2f6') in 0.019904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/led.obj
+  artifactKey: Guid(6d9cb9c6e7eaf5742886ebfc014234fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/led.obj using Guid(6d9cb9c6e7eaf5742886ebfc014234fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb46d8551aac218e591ffbebeb70f3') in 0.016997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_enter.obj
+  artifactKey: Guid(438c23d8b59e5264aba24b5724323c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_enter.obj using Guid(438c23d8b59e5264aba24b5724323c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36541d36289521a4167c50bfb1c84368') in 0.017666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/PlayableSamples/LocomotionClips/left_strafe.fbx
+  artifactKey: Guid(c48a3fee402e1a34b93fb355dd7d0af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/PlayableSamples/LocomotionClips/left_strafe.fbx using Guid(c48a3fee402e1a34b93fb355dd7d0af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0e81857fcc61d2b12fbe5a1c13cc5b') in 0.006616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_enter.obj
+  artifactKey: Guid(88c7381a716d4da409734b698fc1a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_enter.obj using Guid(88c7381a716d4da409734b698fc1a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284413d6d7b2f07907b73fac1c8ada02') in 0.018524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_b.obj
+  artifactKey: Guid(64439958c531f8848bc8afbea3ce961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_b.obj using Guid(64439958c531f8848bc8afbea3ce961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd096f535d2837110a00849f869bfc8ed') in 0.019758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vive_tracker/HTC_Vive_Tracker_2017.obj
+  artifactKey: Guid(cc0ac6800d6fe7140863cfb1ab7d16ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vive_tracker/HTC_Vive_Tracker_2017.obj using Guid(cc0ac6800d6fe7140863cfb1ab7d16ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdc472de45f5672e9f94dcdc8000aa0') in 0.019736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/PlayableSamples/LocomotionClips/idle_4.fbx
+  artifactKey: Guid(8c43e8c6695fb574cbbadfc3505015c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/PlayableSamples/LocomotionClips/idle_4.fbx using Guid(8c43e8c6695fb574cbbadfc3505015c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075e9bec4d966b17a2bbb9766a7e398a') in 0.005183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/museum_assets/netsuke-snake-curled-around-a-turtle/source/190102_122704_202_64Kmesh_OBJ_LowRes_.obj
+  artifactKey: Guid(aa5d6f5a9c75944ef9062973adfb2906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/museum_assets/netsuke-snake-curled-around-a-turtle/source/190102_122704_202_64Kmesh_OBJ_LowRes_.obj using Guid(aa5d6f5a9c75944ef9062973adfb2906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ddf67ede28056c6437e97bec822015') in 0.018777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/l_grip.obj
+  artifactKey: Guid(942daa8fc8114f542adac7710d3fd9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/l_grip.obj using Guid(942daa8fc8114f542adac7710d3fd9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee1335a0ad637a27acc7d59df28f910') in 0.017796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_y.obj
+  artifactKey: Guid(cc88c9d01c7e3ea4b9ffeb895821dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_y.obj using Guid(cc88c9d01c7e3ea4b9ffeb895821dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9017e9cf8c19859c5bfa018126c61') in 0.017796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/body.obj
+  artifactKey: Guid(bcc313187d139ee4c88c78c0f124d123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/body.obj using Guid(bcc313187d139ee4c88c78c0f124d123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa594c933e5b335c7cce20dc4823c793') in 0.020751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/Oculus/Cone.obj
+  artifactKey: Guid(1bf21b5ebde400c4a8bd763bbb4b040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/Oculus/Cone.obj using Guid(1bf21b5ebde400c4a8bd763bbb4b040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194a4fdb1cdfa2a54c332df61811f66d') in 0.014555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/Avatars/3DCharacterDummy/Models/FemaleDummy.fbx
+  artifactKey: Guid(7144acb9459793743bd1b60b10fe0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/Avatars/3DCharacterDummy/Models/FemaleDummy.fbx using Guid(7144acb9459793743bd1b60b10fe0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090416ae83e36f67fbe8a45cae5accfd') in 0.121679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/museum_assets/tibetan-hayagriva-18th-c-ce/source/190614_mia337_132174_402_local_64Kmesh_OBJ/190614_mia337_132174_402_local_64Kmesh_OBJ.obj
+  artifactKey: Guid(fcada4c964a2e4cbbad21f036cca9c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/museum_assets/tibetan-hayagriva-18th-c-ce/source/190614_mia337_132174_402_local_64Kmesh_OBJ/190614_mia337_132174_402_local_64Kmesh_OBJ.obj using Guid(fcada4c964a2e4cbbad21f036cca9c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39b6ea9a031b5a8180cd2e297ae5182') in 0.033494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/body.obj
+  artifactKey: Guid(fe7df8f50b351434f81bc4ad24aaf7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/body.obj using Guid(fe7df8f50b351434f81bc4ad24aaf7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe29a26603d18ca3f2fc194159148dd') in 0.019531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/button.obj
+  artifactKey: Guid(f3d327cd1506a2247a656a25ab5d4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/vr_controller_vive_1_5/button.obj using Guid(f3d327cd1506a2247a656a25ab5d4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5362eadcb392000661d4e45b9089a03c') in 0.017154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_a.obj
+  artifactKey: Guid(253cac595825bb74a987b2bb62e48dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_a.obj using Guid(253cac595825bb74a987b2bb62e48dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d806e35a8f8a2c7e69383517b0b42bd') in 0.020219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+  artifactKey: Guid(9e1c97fc44f9a8744b61b58f72c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx using Guid(9e1c97fc44f9a8744b61b58f72c56de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7b62d31584e0dba767556fd7252584') in 0.009618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_grip.obj
+  artifactKey: Guid(c35002277378339488d9dfdc32087bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/button_grip.obj using Guid(c35002277378339488d9dfdc32087bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2680c2a216a63587b4079fbb973e489') in 0.019836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_x.obj
+  artifactKey: Guid(723150dd42b4d514faeb171eaf2be3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_left/button_x.obj using Guid(723150dd42b4d514faeb171eaf2be3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4f39ad34cdff99c0c0e6aa322e4a28') in 0.018747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ld-textures/source/LDTextures/Cylinders.fbx
+  artifactKey: Guid(c5013a35f34c044ffad4196a07e9a144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/source/LDTextures/Cylinders.fbx using Guid(c5013a35f34c044ffad4196a07e9a144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f029ecaa96c767095bd9cdc59680055') in 0.299672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/body.obj
+  artifactKey: Guid(1e4e0dc7c31ec5e44873d68062af0b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/Media/VRModels/oculus_rifts_controller_right/body.obj using Guid(1e4e0dc7c31ec5e44873d68062af0b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8a9b8595fe54e79e6519fd81939a64') in 0.018352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/museum_assets/kalong-vase-14th-16th-c-ce/source/Mia_127611_KalongVase/190521_mia337_127611_100_64Kmesh_Blender_OBJ.obj
+  artifactKey: Guid(1159ab92259a641d88e17e3fab799a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/museum_assets/kalong-vase-14th-16th-c-ce/source/Mia_127611_KalongVase/190521_mia337_127611_100_64Kmesh_Blender_OBJ.obj using Guid(1159ab92259a641d88e17e3fab799a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0aa60a3a63559c72f0fd5e09978d4d') in 0.027508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.quickvr.quickbase/Runtime/PlayableSamples/LocomotionClips/left_strafe_walking.fbx
+  artifactKey: Guid(1d88e92fe8bcd1242a07dc252778d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.quickvr.quickbase/Runtime/PlayableSamples/LocomotionClips/left_strafe_walking.fbx using Guid(1d88e92fe8bcd1242a07dc252778d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27640a527bb9f8c315e6f3cef2eab349') in 0.003682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 9.948316 seconds.
+  path: Assets/high-resolution-doryphoros/textures
+  artifactKey: Guid(87f44da58a14049cc9bdb9aafabeec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/high-resolution-doryphoros/textures using Guid(87f44da58a14049cc9bdb9aafabeec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37d0c01efe5853bc9c6e4006a9373b3') in 0.000332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.363402 seconds.
+  path: Assets/high-resolution-doryphoros/textures/Mia_86_6_Doryphoros_HighRes_4Mfaces_OBJ.jpeg
+  artifactKey: Guid(b99f609a83da547e6afaf040c24a37b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/high-resolution-doryphoros/textures/Mia_86_6_Doryphoros_HighRes_4Mfaces_OBJ.jpeg using Guid(b99f609a83da547e6afaf040c24a37b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b52c05c5fe08e22ac3f08f9821df5e4') in 0.032563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/high-resolution-doryphoros/textures/Mia_86_6_Doryphoros_HighRes_4Mfaces_OBJ3.jpeg
+  artifactKey: Guid(fe023ee68db5149769ee1f7c1abbe65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/high-resolution-doryphoros/textures/Mia_86_6_Doryphoros_HighRes_4Mfaces_OBJ3.jpeg using Guid(fe023ee68db5149769ee1f7c1abbe65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50809ff90e7771ada75da33ece99b328') in 0.018772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 164.630024 seconds.
+  path: Assets/ld-textures/textures/T_Wood_Var_basecolor.png
+  artifactKey: Guid(c14b1b4cf0bda4690b4ff70de63c34f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_Wood_Var_basecolor.png using Guid(c14b1b4cf0bda4690b4ff70de63c34f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9263bd13efa426a506a847976d4107e') in 0.191601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/ld-textures/textures/T_YellowBrick_Var_basecolor.png
+  artifactKey: Guid(a3778222adb9b422b89cd48122477c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ld-textures/textures/T_YellowBrick_Var_basecolor.png using Guid(a3778222adb9b422b89cd48122477c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4a15a7a6ee521a47e63c7bb11deafd') in 0.020161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
